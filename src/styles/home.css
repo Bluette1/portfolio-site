@@ -73,7 +73,46 @@ main {
   background: #4a4e69; /* Darken on hover */
 }
 
-/* Optional: Responsive Design */
+.menu-toggle {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+}
+
+
+
+.navbar {
+    flex-direction: column; /* Stack nav links vertically */
+    align-items: center; /* Center the links */
+    padding-top: 1rem;
+}
+
+.nav-links.open {
+    display: flex; /* Show links when open */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block; /* Show hamburger icon */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack nav links vertically */
+        align-items: center; /* Center the links */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack links */
+        gap: 10px; /* Space between links */
+        display: none; /* Hide links by default */
+    }
+
+    .nav-links.open {
+        display: flex; /* Show links when open */
+    }
+}
+
 @media (max-width: 768px) {
   .header h1 {
     font-size: 2rem;
