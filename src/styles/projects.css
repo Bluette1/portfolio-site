@@ -1,0 +1,22 @@
+.projects {
+    padding: 20px;
+    background: #ffffff;
+}
+
+.project {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #35424a;
+}

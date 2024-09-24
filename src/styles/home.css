@@ -1,0 +1,111 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  min-height: 100vh; /* Full height of the viewport */
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px; /* Add some padding */
+}
+
+.header {
+  background: linear-gradient(135deg, #35424a, #4a4e69);
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  width: 100%;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Lora", serif;
+}
+
+.header h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #f0f0f0; /* Lighten on hover */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center main content horizontally */
+  justify-content: center; /* Center main content vertically */
+  padding: 20px;
+}
+
+.profile-image {
+  width: 150px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 20px; /* Spacing below the image */
+}
+
+.cta {
+  padding: 10px 20px;
+  background: #35424a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.cta:hover {
+  background: #4a4e69; /* Darken on hover */
+}
+
+/* Optional: Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header h2 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .profile-image {
+    width: 120px; /* Smaller size for mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header h2 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  .profile-image {
+    width: 120px;
+  }
+}
