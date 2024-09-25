@@ -1,8 +1,10 @@
 .projects {
     padding: 20px;
     background: #ffffff;
-}
+    font-family: 'Fira Sans', sans-serif; 
 
+}
+-f
 .project {
     margin-bottom: 40px;
     border: 1px solid #ddd;

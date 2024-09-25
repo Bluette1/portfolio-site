@@ -1,14 +1,14 @@
 
 
 h1 {
-    font-family: 'Lora', serif; /* For headings, you might choose a different font */
+    font-family: 'Fira Sans', sans-serif;
     font-size: 3rem;
     color: rgb(245, 225, 225);
 }
 
 
 body {
-    font-family: 'Roboto', sans-serif; /* Use your chosen font */
+    font-family: 'Fira Sans', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
