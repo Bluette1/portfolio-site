@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "portfolio-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Portfolio Site",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Marylene Sawyer <marylene.sawyer@gmail.com>",
+  "homepage": ".",
   "dependencies": {
     "@fontsource/fira-sans": "^5.1.0",
     "@fortawesome/fontawesome-free": "^6.6.0",
