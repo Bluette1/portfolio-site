@@ -3,16 +3,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; 
+  min-height: 100vh;
   background: #f0f0f0;
   text-align: center;
-  padding: 20px; 
+  padding: 20px;
   font-family: "Fira Sans", sans-serif;
 }
 
 .header {
-  background: linear-gradient(135deg, #35424a, #4a4e69);
-  color: #ffffff;
+  background: linear-gradient(90deg, rgba(53, 66, 74, 1), rgba(26, 29, 32, 1));
+  background-size: 200% 100%;
   text-align: center;
   padding: 40px 20px;
   width: 100%;
@@ -101,25 +101,40 @@ main {
 
 .social-links {
   display: flex;
-  gap: 15px; /* Space between social links */
-  margin-left: auto; /* Pushes the social links to the right */
+  gap: 15px;
+  margin-left: auto;
 }
 
 .social-links a {
-  color: #ffffff; /* Social link color */
-  text-decoration: none; /* Remove underline */
+  color: #ffffff;
+  text-decoration: none;
   transition: color 0.3s;
 }
 
 .social-links a:hover {
-  color: #f0f0f0; /* Lighten on hover */
+  color: #f0f0f0;
+}
+
+main {
+  min-height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 
+
 /* Media query for mobile responsiveness */
+@media (max-width: 900px) {
+  main {
+    min-height: 32vh;
+  }
+}
 @media (max-width: 768px) {
   .menu-toggle {
-    display: block; /* Show hamburger icon */
+    display: block;
   }
 
   .navbar {
@@ -135,6 +150,9 @@ main {
 
   .navbar-links.open {
     display: flex;
+  }
+  .main {
+    min-height: 25vh;
   }
 }
 
