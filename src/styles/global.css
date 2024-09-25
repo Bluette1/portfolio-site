@@ -1,39 +1,37 @@
-
-
 h1 {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 3rem;
-    color: rgb(245, 225, 225);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3rem;
+  color: rgb(245, 225, 225);
 }
 
-
 body {
-    font-family: 'Fira Sans', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 header {
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
 
 nav a {
-    margin: 0 15px;
-    color: #ffffff;
-    text-decoration: none;
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
-h1, h2 {
-    color: #35424a;
+h1,
+h2 {
+  color: #35424a;
 }
 
 .project {
-    margin: 20px 0;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 5px;
+  margin: 20px 0;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
 }
