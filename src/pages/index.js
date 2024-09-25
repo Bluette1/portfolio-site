@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from 'react';
 import Footer from "../components/footer"
 import Header from "../components/header"
 import "../styles/home.css"
@@ -9,7 +9,7 @@ const IndexPage = () => {
       <Header />
       <main>
         <img
-          src="profile.jpg"
+          src="images/profile.jpg"
           alt="Your Name"
           className="profile-image"
         />
