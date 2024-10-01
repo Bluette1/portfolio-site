@@ -55,9 +55,9 @@ main {
 
 .profile-image {
   width: 150px;
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 50%; /* Makes the image circular */
-  margin-bottom: 20px; /* Spacing below the image */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .cta {
@@ -124,8 +124,6 @@ main {
   padding: 20px;
 }
 
-
-
 /* Media query for mobile responsiveness */
 @media (max-width: 900px) {
   main {
@@ -154,11 +152,9 @@ main {
   .main {
     min-height: 25vh;
   }
-}
-
-@media (max-width: 768px) {
   .header h1 {
     font-size: 2rem;
+    margin-top: 1rem;
   }
 
   .header h2 {
@@ -172,22 +168,10 @@ main {
   .profile-image {
     width: 120px;
   }
-}
-
-@media (max-width: 768px) {
-  .header h1 {
-    font-size: 2rem;
+  .header {
+    padding: 0;
   }
-
-  .header h2 {
-    font-size: 1.2rem;
-  }
-
-  nav a {
-    margin: 0 10px;
-  }
-
-  .profile-image {
-    width: 120px;
+  nav {
+    margin-top: 0;
   }
 }
