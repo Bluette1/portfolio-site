@@ -24,7 +24,7 @@ const Header = () => {
               <Link to="#about">Bio</Link>
               <Link to="/contact">Contact</Link>
             </div>
-            <div className="social-links">
+            <div className="social-links desktop">
               <a
                 href="https://linkedin.com/in/yourprofile"
                 target="_blank"
@@ -55,6 +55,37 @@ const Header = () => {
               </a>
             </div>
           </section>
+          {/* Social Links Mobile */}
+          <div className="social-links mobile">
+              <a
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://twitter.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://dribbble.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Medium
+              </a>
+              <a
+                href="https://dribbble.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
+            </div>
         </nav>
       </header>
       {/* SVG for Desktop Screens */}
