@@ -122,6 +122,11 @@ main {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  width: 100%;
+}
+
+.contact-info {
+  margin-top: 4.5%;
 }
 
 /* Media query for mobile responsiveness */
@@ -130,6 +135,7 @@ main {
     min-height: 32vh;
   }
 }
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
@@ -173,5 +179,8 @@ main {
   }
   nav {
     margin-top: 0;
+  }
+  .contact-info {
+    margin-top: 19%;
   }
 }

@@ -93,19 +93,7 @@ const Header = () => {
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
       >
-        {/* <defs>
-          <linearGradient id="mobileGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop
-              offset="0%"
-              style={{ stopColor: "rgba(53, 66, 74, 1)", stopOpacity: 1 }}
-            />
-            <stop
-              offset="100%"
-              style={{ stopColor: "rgba(26, 29, 32, 1)", stopOpacity: 1 }}
-            />
-          </linearGradient>
-        </defs> */}
-            <defs>
+        <defs>
           <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop
               offset="0%"
@@ -118,8 +106,8 @@ const Header = () => {
           </linearGradient>
         </defs>
         <path
-          d="M0,50 Q50,0 100,50 L100,0 L0,0 Z" // Inverted dome shape
-          fill="url(#gradient2)" // Use the gradient fill
+          d="M0,50 Q50,0 100,50 L100,0 L0,0 Z"
+          fill="url(#gradient2)"
           stroke="transparent"
           strokeWidth="2"
         />

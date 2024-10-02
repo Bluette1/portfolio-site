@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from "../components/footer"
 import Header from "../components/header"
+import { ArrowDownTrayIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid"
 import "../styles/home.css"
 
 const IndexPage = () => {
@@ -15,8 +16,22 @@ const IndexPage = () => {
         />
         <p>Creating beautiful, user-friendly websites.</p>
         <a href="#resume" className="cta">
-          Download Resume
+          Download Resume <span class="icon"><ArrowDownTrayIcon/> </span>
         </a>
+        <div className="contact-info">
+      <p>
+        <span className="icon">
+          <EnvelopeIcon />
+        </span>
+        marylene.sawyer@gmail.com
+      </p>
+      <p>
+        <span className="icon">
+          <PhoneIcon />
+        </span>
+        (+27) 061-472-7895
+      </p>
+    </div>
       </main>
       <Footer />
     </div>
