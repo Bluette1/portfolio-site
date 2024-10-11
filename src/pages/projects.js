@@ -7,7 +7,7 @@ const ProjectsPage = () => (
       <h1>My Projects</h1>
 
       <div className="project">
-        <h2>Dish Discovery App</h2>
+        <h2>Dish Discovery</h2>
         <img src="/images/screenshot-home-page.png" alt="Dish Discovery App" />
         <section className="description">
           {" "}
@@ -82,10 +82,9 @@ const ProjectsPage = () => (
       </div>
 
       <div className="project">
-        <h2>PostBee App</h2>
+        <h2>PostBee</h2>
         <img src="/images/screenshot-postbee.png" alt="PostBee App" />
         <section className="description">
-          {" "}
           <p>
             PostBee is a dynamic job posting platform designed to streamline the
             process of job management for both employers and job seekers. The
@@ -130,6 +129,100 @@ const ProjectsPage = () => (
             <li>
               <strong>Microservices:</strong> Docker, Pika, RabbitMQ, Bunny,
               SideKiq, Celery
+            </li>
+          </ul>
+        </article>
+
+        <a
+          href="https://link-to-your-project.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
+        <a
+          href="https://link-to-your-project.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source code
+        </a>
+      </div>
+
+      <div className="project">
+        <h2>Vibes</h2>
+        <img src="/images/screenshot-vibes-home-page.png" alt="Vibes App" />
+        <section className="description">
+          {" "}
+          <p>
+            Vibes is a beautifully designed meditation app that helps users
+            achieve mindfulness through a combination of soothing nature
+            imagery, calming music, and guided meditation sessions. 
+          </p>
+        </section>
+
+        <article>
+          <h3>Key Features:</h3>
+          <ul className="vibes-features">
+            <li>
+              <strong>Nature-Inspired Visuals:</strong> Immerse yourself in a
+              peaceful atmosphere with rotating high-quality nature images,
+              including calming oceans, serene forests, and majestic mountains.
+             
+            </li>
+            <li>
+              <strong>Soothing Background Music:</strong> Meditate to the sounds
+              of tranquility with a selection of calming audio tracks. You can
+              choose your preferred music and adjust the volume to create the
+              perfect balance between silence and sound.
+            </li>
+            <li>
+              <strong>Guided Meditation Sessions:</strong> Follow along with
+              audio-guided meditation sessions designed to help you focus,
+              relax, and de-stress. Choose from a variety of topics, such as
+              mindfulness, stress relief, and relaxation.
+            </li>
+            <li>
+              <strong>Personalized Experience:</strong> Tailor your meditation
+              sessions by adjusting image transition intervals, selecting your
+              favorite music, and saving your preferences for future sessions.
+              Vibes remembers your choices, ensuring a seamless and personalized
+              experience every time.
+            </li>
+            <li>
+              <strong>Offline Mode:</strong> Don’t let a poor internet
+              connection interrupt your mindfulness. Download your favorite
+              images and music tracks to meditate offline, wherever and whenever
+              you need to find peace.
+            </li>
+            <li>
+              <strong>Meditation Reminders:</strong> Stay consistent with your
+              practice by setting daily or weekly meditation reminders. Vibes
+              will gently nudge you to meditate, helping you build a regular
+              routine.
+            </li>
+            Track your progress with a detailed meditation history that logs
+            your previous sessions, duration, and settings. Stay motivated by
+            reviewing your journey toward mindfulness over time.
+          </ul>
+
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li>
+              <strong>Frontend:</strong> React Native
+            </li>
+            <li>
+              <strong>Backend:</strong> Ruby on Rails
+            </li>
+            <li>
+              <strong>Database:</strong> PostgreSQL
+            </li>
+            <li>
+              <strong>Caching:</strong> Redis for API response caching
+            </li>
+            <li>
+              <strong>Third-Party Integrations:</strong> Getty Images API for
+              high-quality nature images
             </li>
           </ul>
         </article>

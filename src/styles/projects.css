@@ -92,6 +92,11 @@ ul li {
   display: flex;
 }
 
+.projects article .vibes-features {
+  margin-right: 2rem;
+
+}
+
 @media (max-width: 768px) {
   .projects {
     padding: 10px;
