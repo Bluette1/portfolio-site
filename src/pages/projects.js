@@ -10,7 +10,6 @@ const ProjectsPage = () => (
         <h2>Dish Discovery</h2>
         <img src="/images/screenshot-home-page.png" alt="Dish Discovery App" />
         <section className="description">
-          {" "}
           <p>
             The Dish Discovery App is a web application designed to help users
             discover and explore a wide variety of recipes based on their
@@ -157,7 +156,7 @@ const ProjectsPage = () => (
           <p>
             Vibes is a beautifully designed meditation app that helps users
             achieve mindfulness through a combination of soothing nature
-            imagery, calming music, and guided meditation sessions. 
+            imagery, calming music, and guided meditation sessions.
           </p>
         </section>
 
@@ -168,7 +167,6 @@ const ProjectsPage = () => (
               <strong>Nature-Inspired Visuals:</strong> Immerse yourself in a
               peaceful atmosphere with rotating high-quality nature images,
               including calming oceans, serene forests, and majestic mountains.
-             
             </li>
             <li>
               <strong>Soothing Background Music:</strong> Meditate to the sounds
@@ -223,6 +221,127 @@ const ProjectsPage = () => (
             <li>
               <strong>Third-Party Integrations:</strong> Getty Images API for
               high-quality nature images
+            </li>
+          </ul>
+        </article>
+
+        <a
+          href="https://link-to-your-project.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
+        <a
+          href="https://link-to-your-project.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source code
+        </a>
+      </div>
+
+      <div className="project">
+        <h2>BotBuddy</h2>
+        <img src="/images/screenshot-botbuddy.png" alt="BotBuddy App" />
+        <section className="description">
+          <p>
+            BotBuddy is a versatile automation bot designed to enhance user
+            interaction within digital environments, particularly on Discord.
+            This project aims to streamline various tasks, provide intelligent
+            responses, and foster a welcoming atmosphere in servers through a
+            range of engaging features.
+          </p>
+        </section>
+
+        <article>
+          <h3>Key Features:</h3>
+          <ul className="botbuddy-features">
+            <li>
+              <strong>Bot Setup:</strong> Developers can easily set up the bot
+              to automate tasks tailored to their specific environments.
+            </li>
+            <li>
+              <strong>Command Integration:</strong> Users can interact with
+              BotBuddy using efficient commands, ensuring quick and
+              straightforward communication.
+            </li>
+            <li>
+              <strong>Environment Configuration:</strong> The bot loads
+              environment variables, allowing it to access essential
+              configuration settings seamlessly.
+            </li>
+            <li>
+              <strong>ChatGPT Integration:</strong> By integrating with the
+              OpenAI API, BotBuddy delivers intelligent responses, enriching
+              user interactions and providing valuable insights.
+            </li>
+            <li>
+              <strong>Conversation History:</strong> The bot maintains context
+              by storing conversation history, allowing for more personalized
+              exchanges across sessions.
+            </li>
+            <li>
+              <strong>Database Storage:</strong> All conversation history is
+              persistently stored in a database, ensuring data is easily
+              retrievable and secure.
+            </li>
+            <li>
+              <strong>Welcome Message:</strong> BotBuddy greets new members upon
+              joining a server, creating an inviting and friendly atmosphere.
+            </li>
+            <li>
+              <strong>Inspirational Quotes:</strong> Users receive random
+              inspirational quotes, offering motivation and positivity
+              throughout their day.
+            </li>
+            <li>
+              <strong>Support the Creator:</strong> A "Buy Me a Coffee" feature
+              allows users to support the bot's creator through donations,
+              fostering a sense of community and appreciation.
+            </li>
+            <li>
+              <strong>New Year Celebration:</strong> On New Year's Day, BotBuddy
+              sends celebratory messages to all members, enhancing the festive
+              spirit.
+            </li>
+            <li>
+              <strong>Birthday Celebration:</strong> Users receive personalized
+              messages on their birthdays, making them feel special and valued.
+            </li>
+            <li>
+              <strong>Task Reminders:</strong> Users can set reminders for
+              tasks, helping them manage their time effectively and stay
+              organized.
+            </li>
+            <li>
+              <strong>Recurring Reminders:</strong> BotBuddy supports recurring
+              reminders for ongoing responsibilities, ensuring users never miss
+              important tasks.
+            </li>
+            <li>
+              <strong>Command Usage:</strong> Simple commands like /ping provide
+              an intuitive way for users to interact with the bot, making
+              communication effortless.
+            </li>
+          </ul>
+
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li>
+              <strong>Python:</strong> The primary programming language for
+              developing BotBuddy, enabling robust and efficient bot
+              functionalities.
+            </li>
+            <li>
+              <strong>OpenAI API:</strong> Used for integrating advanced AI
+              capabilities, allowing BotBuddy to provide intelligent and
+              context-aware responses.
+            </li>
+            <li>
+              <strong>Discord.py:</strong> A powerful library for interacting
+              with the Discord API, facilitating seamless bot deployment and
+              interaction within Discord servers.
             </li>
           </ul>
         </article>

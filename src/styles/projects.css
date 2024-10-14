@@ -38,7 +38,6 @@ h1 {
 }
 
 h2 {
-  /* color: #007bff; */
   margin-bottom: 10px;
 }
 
@@ -92,7 +91,7 @@ ul li {
   display: flex;
 }
 
-.projects article .vibes-features {
+.projects article .vibes-features, .botbuddy-features {
   margin-right: 2rem;
 
 }
