@@ -4,7 +4,6 @@ import "../styles/footer.css"
 
 const Footer = () => (
   <footer className="footer">
-   
     <section className="footer-section-links">
       <div className="footer-links">
         <Link to="#projects">Projects</Link>
@@ -13,28 +12,28 @@ const Footer = () => (
       </div>
       <div className="social-media">
         <a
-          href="https://linkedin.com/in/yourprofile"
+          href="https://www.linkedin.com/in/marylene-sawyer/"
           target="_blank"
           rel="noopener noreferrer"
         >
           LinkedIn
         </a>
         <a
-          href="https://twitter.com/yourprofile"
+          href="https://github.com/Bluette1 "
           target="_blank"
           rel="noopener noreferrer"
         >
           Github
         </a>
         <a
-          href="https://dribbble.com/yourprofile"
+          href="https://medium.com/@marylene.sawyer"
           target="_blank"
           rel="noopener noreferrer"
         >
           Medium
         </a>
         <a
-          href="https://dribbble.com/yourprofile"
+          href="http://blog.marylene.tech/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -42,6 +41,17 @@ const Footer = () => (
         </a>
       </div>
     </section>
+
+    <p>
+      &rarr;{" "}
+      <a
+        href="http://v1.marylene.tech/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View First Version of my Portfolio
+      </a>
+    </p>
 
     <p>© Marylene Sawyer {new Date().getFullYear()}. All rights reserved.</p>
   </footer>

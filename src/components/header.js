@@ -26,28 +26,28 @@ const Header = () => {
             </div>
             <div className="social-links desktop">
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/marylene-sawyer/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
               <a
-                href="https://twitter.com/yourprofile"
+                href="https://github.com/Bluette1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Github
               </a>
               <a
-                href="https://dribbble.com/yourprofile"
+                href="https://medium.com/@marylene.sawyer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Medium
               </a>
               <a
-                href="https://dribbble.com/yourprofile"
+                href="http://blog.marylene.tech"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -58,28 +58,28 @@ const Header = () => {
           {/* Social Links Mobile */}
           <div className="social-links mobile">
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/marylene-sawyer/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
               <a
-                href="https://twitter.com/yourprofile"
+                href="https://github.com/Bluette1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Github
               </a>
               <a
-                href="https://dribbble.com/yourprofile"
+                href="https://medium.com/@marylene.sawyer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Medium
               </a>
               <a
-                href="https://dribbble.com/yourprofile"
+                href="http://blog.marylene.tech"
                 target="_blank"
                 rel="noopener noreferrer"
               >
