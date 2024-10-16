@@ -23,23 +23,21 @@
   color: #35424a;
 }
 
-.icon {
-  width: 24px; 
-  height: 24px; 
-  display: inline-block;
-  margin-right: 8px;
-}
-
-.icon svg {
-  width: 100%;
-  height: 100%;
-  vertical-align: bottom;
-}
-
 .footer-section-links {
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
+}
+
+.footer .v1 a {
+  color: #35424a;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer .v1 a:hover {
+  color: #4a4e69;
 }
 
 @media (max-width: 768px) {

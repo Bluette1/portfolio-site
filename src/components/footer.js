@@ -6,9 +6,9 @@ const Footer = () => (
   <footer className="footer">
     <section className="footer-section-links">
       <div className="footer-links">
-        <Link to="#projects">Projects</Link>
+        <Link to="/projects">Projects</Link>
         <Link to="#about">Bio</Link>
-        <Link to="#contact">Contact</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       <div className="social-media">
         <a
@@ -42,7 +42,7 @@ const Footer = () => (
       </div>
     </section>
 
-    <p>
+    <p className="v1">
       &rarr;{" "}
       <a
         href="http://v1.marylene.tech/"
