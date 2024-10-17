@@ -13,7 +13,7 @@ const Header = () => {
     <>
       <header className="header">
         <h1>Marylene Sawyer</h1>
-        <h2>Software | Web Developer</h2>
+        <h2>Software Developer</h2>
         <nav className="navbar">
           <div className="menu-toggle" onClick={toggleMenu}>
             ☰ {/* Hamburger icon */}
@@ -57,35 +57,35 @@ const Header = () => {
           </section>
           {/* Social Links Mobile */}
           <div className="social-links mobile">
-              <a
-                href="https://www.linkedin.com/in/marylene-sawyer/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a
-                href="https://github.com/Bluette1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://medium.com/@marylene.sawyer"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Medium
-              </a>
-              <a
-                href="http://blog.marylene.tech"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-            </div>
+            <a
+              href="https://www.linkedin.com/in/marylene-sawyer/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/Bluette1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://medium.com/@marylene.sawyer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Medium
+            </a>
+            <a
+              href="http://blog.marylene.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blog
+            </a>
+          </div>
         </nav>
       </header>
       {/* SVG for Desktop Screens */}
@@ -119,8 +119,8 @@ const Header = () => {
       <svg
         className="mobile-svg"
         width="100%"
-        height="200px"
-        viewBox="0 0 100 50"
+        height="100px"
+        viewBox="0 0 100 25"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
       >
@@ -137,13 +137,12 @@ const Header = () => {
           </linearGradient>
         </defs>
         <path
-          d="M0,50 Q50,0 100,50 L100,0 L0,0 Z"
+          d="M0,25 Q50,0 100,25 L100,0 L0,0 Z"
           fill="url(#gradient2)"
           stroke="transparent"
           strokeWidth="2"
         />
       </svg>
-
       <style jsx>{`
         .mobile-svg {
           display: none;
