@@ -1,8 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../styles/projects.css"
 
 const ProjectsPage = () => (
   <section className="projects-container">
+    <article className="back">
+      &larr; <Link to="/">Home</Link>
+    </article>
     <div className="projects">
       <h1>My Projects</h1>
 
@@ -362,6 +366,9 @@ const ProjectsPage = () => (
         </a>
       </div>
     </div>
+    <article className="back">
+      &larr; <Link to="/">Home</Link>
+    </article>
   </section>
 )
 

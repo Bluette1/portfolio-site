@@ -13,10 +13,9 @@ const Header = () => {
     <>
       <header className="header">
         <h1>Marylene Sawyer</h1>
-        <h2>Software Developer</h2>
         <nav className="navbar">
           <div className="menu-toggle" onClick={toggleMenu}>
-            ☰ {/* Hamburger icon */}
+            ☰
           </div>
           <section className={`navbar-links ${isOpen ? "open" : ""}`}>
             <div className={`nav-links`}>

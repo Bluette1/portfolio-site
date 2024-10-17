@@ -12,12 +12,13 @@ const IndexPage = () => {
   return (
     <div className="home">
       <Header />
-      <main>
+      <main id="about">
         <img
           src="images/profile.jpg"
           alt="Your Name"
           className="profile-image"
         />
+        <h2>Software Developer</h2>
         <p>Creating beautiful, user-friendly websites.</p>
         <a
           href="https://professional-cloud.s3.amazonaws.com/Copy_of_Resume.pdf"

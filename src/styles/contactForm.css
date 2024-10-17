@@ -1,3 +1,7 @@
+section.contact {
+  font-family: "Fira Sans", sans-serif;
+}
+
 .contact-form {
   max-width: 600px;
   margin: 10rem auto;
@@ -31,5 +35,18 @@
 }
 
 .contact-form button:hover {
-  background: #455a64; /* Darker shade on hover */
+  background: #455a64; 
+}
+
+h4.contact {
+  text-align: center;
+  font-weight: normal;
+}
+article.send-message {
+  display: flex;
+  justify-content: center;
+}
+
+article.send-message button {
+  font-family: "Fira Sans", sans-serif;
 }
