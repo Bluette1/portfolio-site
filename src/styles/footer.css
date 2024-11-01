@@ -11,7 +11,7 @@
 }
 
 .footer-links a,
-.social-media a {
+.social-media a, .back a {
   color: black;
   text-decoration: none;
   margin: 0 10px;
@@ -19,7 +19,7 @@
 }
 
 .footer-links a:hover,
-.social-media a:hover {
+.social-media a:hover, .back a {
   color: #35424a;
 }
 

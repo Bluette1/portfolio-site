@@ -1,8 +1,12 @@
 import React from "react"
+import { Link } from "gatsby"
 import "../styles/projects.css"
 
 const ProjectsPage = () => (
   <section className="projects-container">
+    <article className="back">
+      &larr; <Link to="/">Home</Link>
+    </article>
     <div className="projects">
       <h1>My Projects</h1>
 
@@ -65,14 +69,14 @@ const ProjectsPage = () => (
         </article>
 
         <a
-          href="https://link-to-your-project.com"
+          href="https://dish-dishcovery-44ihk8a1j-bluette1s-projects.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
           View Project
         </a>
         <a
-          href="https://link-to-your-project.com"
+          href="https://github.com/Bluette1/dish-dishcovery-app"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -133,14 +137,14 @@ const ProjectsPage = () => (
         </article>
 
         <a
-          href="https://link-to-your-project.com"
+          href="https://postbee.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
         >
           View Project
         </a>
         <a
-          href="https://link-to-your-project.com"
+          href="https://github.com/Bluette1/postbee"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -226,14 +230,14 @@ const ProjectsPage = () => (
         </article>
 
         <a
-          href="https://link-to-your-project.com"
+          href="https://brown-lurleen-15.tiiny.site/"
           target="_blank"
           rel="noopener noreferrer"
         >
           View Project
         </a>
         <a
-          href="https://link-to-your-project.com"
+          href="https://github.com/Bluette1/vibes"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -347,14 +351,14 @@ const ProjectsPage = () => (
         </article>
 
         <a
-          href="https://link-to-your-project.com"
+          href="https://discord.com/oauth2/authorize?client_id=1296658070159753377"
           target="_blank"
           rel="noopener noreferrer"
         >
           View Project
         </a>
         <a
-          href="https://link-to-your-project.com"
+          href="https://github.com/Bluette1/discord_bot"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -362,6 +366,9 @@ const ProjectsPage = () => (
         </a>
       </div>
     </div>
+    <article className="back">
+      &larr; <Link to="/">Home</Link>
+    </article>
   </section>
 )
 
